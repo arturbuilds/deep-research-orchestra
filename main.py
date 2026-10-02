@@ -10,8 +10,8 @@ async def run():
         'messages': [HumanMessage(content='Какие самые перспективные AI-стартапы в 2026?')]
     })
 
-    print(result.get("final_report"))
+    print(result.get('final_report'))
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     asyncio.run(run())
